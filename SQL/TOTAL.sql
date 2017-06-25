@@ -41,31 +41,18 @@ where fecha >  TO_DATE('01/08/2016','dd/mm/yyyy')
 
        
 SELECT username,program FROM GV$SESSION
-WHERE PROGRAM like '%subval.exe'
+WHERE PROGRAM like '%sub'
 union
 SELECT username,program FROM GV$SESSION
-WHERE PROGRAM like '%titulos.exe'
+WHERE PROGRAM like '%tit'
 union
 SELECT username,program FROM GV$SESSION
-WHERE PROGRAM like '%a_exva.exe'
+WHERE PROGRAM like '%aexva'
 union
 SELECT username,program FROM GV$SESSION
 WHERE PROGRAM like '%elecons%'
 order by 2,1
         
-
-SELECT username,program FROM GV$SESSION
-WHERE username like '%XRASANCHEZ%'
-
-SELECT username,program FROM GV$SESSION
-WHERE username like '%XFGILP%'
-
-
-xrsanchez
-
-
-XFGILP
-
 
 
 
