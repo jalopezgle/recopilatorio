@@ -43,7 +43,20 @@ ORDER BY TIMESTAMP DESC
 
 SELECT * FROM USER_ERRORS
 
-       
+USER_ERRORS
+ALL_ERRORS_AE
+USER_ERRORS_AE
+ALL_ERRORS
+
+
+
+
+select DISTINCT TABLE_NAME from SYS.ALL_TABLES
+WHERE TABLE_NAME LIKE 'MI_%'
+
+select * from all_users where username like 'MI_%'
+
+
 SELECT username,program FROM GV$SESSION
 WHERE PROGRAM like '%sub'
 union

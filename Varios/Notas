@@ -1,1 +1,10 @@
+ Funciones Machine learning
+ http://scikit-learn.org/stable/
  
+ Webservices
+ https://www.adictosaltrabajo.com/tutoriales/jaxwscxf/
+ https://github.com/Bernardo-MG/spring-ws-security-soap-example
+ 
+ keytool -list -keystore cacerts
+ 
+ keytool -import -trustcacerts -alias root -file AC_RAIZ_FNMT-RCM_SHA256.pem -keystore C:\jdk\jre7\lib\security\cacerts  ---> correcta pero pide contraseña
