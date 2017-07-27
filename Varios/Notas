@@ -4,7 +4,47 @@
  Webservices
  https://www.adictosaltrabajo.com/tutoriales/jaxwscxf/
  https://github.com/Bernardo-MG/spring-ws-security-soap-example
+ Te pongo algo de información sobre WSS por si llegamos a necesitarla.
+ https://www.oasis-open.org/committees/download.php/16790/wss-v1.1-spec-os-SOAPMessageSecurity.pdf
+
+ CXF WSS4J
+ http://cxf.apache.org/docs/ws-security.html
+
+ http://www.dgtic.gva.es/web/pai_interna/servicios-del-sistema-de-autenticacion-y-firma-electronica-safe-
+ 
+ 
+ 
+ http://stackoverflow.com/questions/6851461/java-why-does-ssl-handshake-give-could-not-generate-dh-keypair-exception
+
+https://technobcn.wordpress.com/2014/12/02/java-could-not-generate-dh-keypair/
+
+http://www.bouncycastle.org/wiki/display/JA1/Provider+Installation
+
+Estos son los pasos:
+
+1) Download these jars:
+
+bcprov-jdk15on-154.jar
+(https://www.bouncycastle.org/download/bcprov-jdk15on-154.jar)
+
+bcprov-ext-jdk15on-154.jar
+(https://www.bouncycastle.org/download/bcprov-ext-jdk15on-154.jar)
+
+
+
+
+
  
  keytool -list -keystore cacerts
  
  keytool -import -trustcacerts -alias root -file AC_RAIZ_FNMT-RCM_SHA256.pem -keystore C:\jdk\jre7\lib\security\cacerts  ---> correcta pero pide contraseña
+ 
+
+ 
+http://opendata.euskadi.eus/catalogo/-/uda-utilidades-de-desarrollo-de-aplicaciones/
+http://opendata.euskadi.eus/catalogo/-/forjas-del-gobierno-vasco/
+ 
+ 
+ 
+ 
+ 
