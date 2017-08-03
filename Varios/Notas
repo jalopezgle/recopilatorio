@@ -4,7 +4,7 @@
  Webservices
  https://www.adictosaltrabajo.com/tutoriales/jaxwscxf/
  https://github.com/Bernardo-MG/spring-ws-security-soap-example
- Te pongo algo de informaciÛn sobre WSS por si llegamos a necesitarla.
+ Te pongo algo de informaci√≥n sobre WSS por si llegamos a necesitarla.
  https://www.oasis-open.org/committees/download.php/16790/wss-v1.1-spec-os-SOAPMessageSecurity.pdf
 
  CXF WSS4J
@@ -37,12 +37,15 @@ bcprov-ext-jdk15on-154.jar
  
  keytool -list -keystore cacerts
  
- keytool -import -trustcacerts -alias root -file AC_RAIZ_FNMT-RCM_SHA256.pem -keystore C:\jdk\jre7\lib\security\cacerts  ---> correcta pero pide contraseÒa
+ keytool -import -trustcacerts -alias root -file AC_RAIZ_FNMT-RCM_SHA256.pem -keystore C:\jdk\jre7\lib\security\cacerts  ---> correcta pero pide contrase√±a
  
 
  
 http://opendata.euskadi.eus/catalogo/-/uda-utilidades-de-desarrollo-de-aplicaciones/
 http://opendata.euskadi.eus/catalogo/-/forjas-del-gobierno-vasco/
+
+
+http://sectools.org/tool/acunetix/
  
  
  
